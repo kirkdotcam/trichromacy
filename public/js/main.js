@@ -7,22 +7,23 @@ $(document).ready(function () {
   $('.colorBox').click(function(){
     var colorData = {}
 
+    colorData.selected = $(this).attr('id');
+
     $colors.children('div').each(function(i,el){
       var toDecompose = $(this).css('background-color');
       var decomposed = [];
-
       toDecompose.substring(4,(toDecompose.length-2)).split(',').forEach(function(el){
         decomposed.push(el)
       });
-      colorData['box_' + i] = decomposed;
-      console.log(Object.keys(colorData));
+
+      colorData[i] = decomposed;
     });
 
     colorData.goal = $('#goalColor').data('newColor');
     console.log(colorData)
 
 
-    $.post('/colors',colorData)
+    $.post('/colors',{data:JSON.stringify(colorData)})
     .done(function(data){
       console.log(`data submitted `,data);
     })

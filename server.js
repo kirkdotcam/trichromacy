@@ -14,8 +14,8 @@ app.get('/',function(req,res){
 });
 
 app.post('/colors',function(req,res){
-	Submissions.insert(req.body)
-	console.log(req.body)
+	console.log(req.body.data)
+	Submissions.insert(JSON.parse(req.body.data))
 	res.end()
 })
 
