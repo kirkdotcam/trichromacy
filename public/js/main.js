@@ -4,7 +4,7 @@ $(document).ready(function () {
   //delegate colorAjax() to colorDiv
   colorGen()
 
-  $('.colorBox').click(function(){
+  $colors.on('click','.colorBox',function(){
     var colorData = {}
 
     colorData.selected = $(this).attr('id');
@@ -27,6 +27,7 @@ $(document).ready(function () {
     .done(function(data){
       console.log(`data submitted `,data);
     })
+    colorGen()
   })
 
   function colorGen() {
@@ -40,7 +41,6 @@ $(document).ready(function () {
     $colors.append(text);
 
     for (var i = 0; i < 3; i++) {
-      console.log('gen div')
       var genDiv = $('<div>')
       genDiv.css("background-color", function () {
         return `rgb(${rand256()},${rand256()},${rand256()})`
