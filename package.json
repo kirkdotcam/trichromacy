@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^0.7.0",
-    "badcube": "^0.1.1",
+    "badcube": "^0.3.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.3"
   }

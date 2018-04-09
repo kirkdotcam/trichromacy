@@ -1,0 +1,12 @@
+.colorBox{
+  height: 100px;
+  width: 100px;
+  border-width: 15px;
+  border-style: solid;
+  border-color:black;
+  float:left;
+}
+
+#colorDiv{
+  width: 600px;
+}
