@@ -19,18 +19,18 @@ var goalDict = {
 	blue: 2
 }
 app.post('/colors',function(req,res){
-	//console.log(req.body.data)
+	console.log(req.body.data)
 
 	let data = JSON.parse(req.body.data);
 	let goalNum = goalDict[data.goal];
 	let arr = [];
 
 	for(let i = 0; i < 3; i++){
-		arr.push(parseInt(data[i][goalNum]));
+		arr.push(parseInt(data.choices[i][goalNum]));
 	};
 
 	data.answer = arr.indexOf(Math.max(...arr));
-	data.correct = Boolean(data.answer === data.selected);
+	data.correct = Boolean(data.answer == data.selected);
 
 
 	Submissions.insert(data);

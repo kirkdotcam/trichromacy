@@ -1,4 +1,5 @@
 var colorWheel = ['red', 'blue', 'green'];
+
 $(document).ready(function () {
   var $colors = $('#colorDiv');
   //delegate colorAjax() to colorDiv
@@ -7,14 +8,14 @@ $(document).ready(function () {
   $colors.on('click','.colorBox',function(){
     var colorData = {}
 
-    colorData.selected = $(this).attr('id');
+    colorData.selected = parseInt($(this).attr('id'));
 
     colorData.choices = []
     $colors.children('div').each(function(i,el){
       var toDecompose = $(this).css('background-color');
       var decomposed = [];
       toDecompose.substring(4,(toDecompose.length-2)).split(',').forEach(function(el){
-        decomposed.push(el)
+        decomposed.push(parseInt(el.trim()))
       });
 
       colorData.choices.push(decomposed);
@@ -53,6 +54,7 @@ $(document).ready(function () {
 
   }
 })
+
 function rand256() {
   return Math.floor(Math.random() * 255) + 1;
 }
