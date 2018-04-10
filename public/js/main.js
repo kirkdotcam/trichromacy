@@ -9,6 +9,7 @@ $(document).ready(function () {
 
     colorData.selected = $(this).attr('id');
 
+    colorData.choices = []
     $colors.children('div').each(function(i,el){
       var toDecompose = $(this).css('background-color');
       var decomposed = [];
@@ -16,7 +17,7 @@ $(document).ready(function () {
         decomposed.push(el)
       });
 
-      colorData[i] = decomposed;
+      colorData.choices.push(decomposed);
     });
 
     colorData.goal = $('#goalColor').data('newColor');
