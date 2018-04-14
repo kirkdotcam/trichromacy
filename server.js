@@ -18,6 +18,11 @@ var goalDict = {
 	green: 1,
 	blue: 2
 }
+
+function biasing(arr){
+	
+}
+
 app.post('/colors',function(req,res){
 	console.log(req.body.data)
 
@@ -31,7 +36,6 @@ app.post('/colors',function(req,res){
 
 	data.answer = arr.indexOf(Math.max(...arr));
 	data.correct = Boolean(data.answer == data.selected);
-
 
 	Submissions.insert(data);
 	res.end();
