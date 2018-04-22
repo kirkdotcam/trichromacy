@@ -1,1 +1,117 @@
-[]
+[
+  {
+    "selected": 0,
+    "choices": [
+      [
+        10,
+        2,
+        11
+      ],
+      [
+        2,
+        204,
+        8
+      ],
+      [
+        14,
+        191,
+        22
+      ]
+    ],
+    "goal": "red",
+    "answer": 2,
+    "correct": false
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        254,
+        48,
+        1
+      ],
+      [
+        67,
+        37,
+        11
+      ],
+      [
+        79,
+        61,
+        6
+      ]
+    ],
+    "goal": "red",
+    "answer": 0,
+    "correct": false
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        4,
+        186,
+        12
+      ],
+      [
+        32,
+        190,
+        17
+      ],
+      [
+        59,
+        35,
+        20
+      ]
+    ],
+    "goal": "blue",
+    "answer": 2,
+    "correct": true
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        122,
+        63,
+        2
+      ],
+      [
+        219,
+        122,
+        5
+      ],
+      [
+        142,
+        48,
+        23
+      ]
+    ],
+    "goal": "green",
+    "answer": 1,
+    "correct": true
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        237,
+        90,
+        6
+      ],
+      [
+        233,
+        22,
+        1
+      ],
+      [
+        25,
+        250,
+        15
+      ]
+    ],
+    "goal": "green",
+    "answer": 2,
+    "correct": true
+  }
+]

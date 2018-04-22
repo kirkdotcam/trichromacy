@@ -19,14 +19,15 @@ let goalDict = {
 	blue: 2
 }
 
-function biasing(biasArr,goalColor,selection){
+function biasing(biasArr,goalColor,selectionNum){
 	let goalNum = goalDict[goalColor];
-	if (goalNum === selection){
+	if (goalNum === selectionNum){
 		biasArr[selction]++
 	}
-	else{
-		if(biasArr>=0) biasArr[selection]--
+	else if(biasArr>=0){
+		biasArr[selection]--
 	}
+	return biasArr
 }
 //should take in current bias array and output new bias array
 
@@ -35,8 +36,9 @@ app.post('/colors',function(req,res){
 
 	let data = JSON.parse(req.body.data);
 	let goalNum = goalDict[data.goal];
-	let arr = [];
 
+	//iterate through data choices and
+	let arr = [];
 	for(let i = 0; i < 3; i++){
 		arr.push(parseInt(data.choices[i][goalNum]));
 	};
@@ -44,6 +46,7 @@ app.post('/colors',function(req,res){
 	data.answer = arr.indexOf(Math.max(...arr));
 	data.correct = Boolean(data.answer == data.selected);
 
+	// biasing()
 	bc.Submissions.insert(data);
 	res.end();
 })

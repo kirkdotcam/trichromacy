@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+  "nodemonConfig":{
+    "ignore":["collections/*"]
+  },
   "dependencies": {
     "@tensorflow/tfjs": "^0.7.0",
     "badcube": "^0.3.1",
