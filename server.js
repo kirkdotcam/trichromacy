@@ -19,13 +19,13 @@ let goalDict = {
 	blue: 2
 }
 
-function biasing(biasArr,goal,selection){
-	let goalNum = goalDict[goal];
+function biasing(biasArr,goalColor,selection){
+	let goalNum = goalDict[goalColor];
 	if (goalNum === selection){
 		biasArr[selction]++
 	}
 	else{
-		biasARr[selection]--
+		if(biasArr>=0) biasArr[selection]--
 	}
 }
 //should take in current bias array and output new bias array
