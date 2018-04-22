@@ -19,37 +19,41 @@ let goalDict = {
 	blue: 2
 }
 
-function biasing(biasArr,goalColor,selectionNum){
-	let goalNum = goalDict[goalColor];
-	if (goalNum === selectionNum){
-		biasArr[selction]++
+function biasing(biasArr,correct,goalNum){
+
+	if (correct && biasArr[goalNum] > 1){
+		biasArr[goalNum]--
 	}
-	else if(biasArr>=0){
-		biasArr[selection]--
+	else if(biasArr[goalNum] < 15 ){
+		biasArr[goalNum]++
 	}
 	return biasArr
 }
 //should take in current bias array and output new bias array
 
 app.post('/colors',function(req,res){
-	console.log(req.body.data)
 
 	let data = JSON.parse(req.body.data);
 	let goalNum = goalDict[data.goal];
 
-	//iterate through data choices and
+	//iterate through data choices and find teh index of correct answer
 	let arr = [];
 	for(let i = 0; i < 3; i++){
 		arr.push(parseInt(data.choices[i][goalNum]));
 	};
-
 	data.answer = arr.indexOf(Math.max(...arr));
+
+
 	data.correct = Boolean(data.answer == data.selected);
 
-	// biasing()
+	let newBias = biasing(data.bias, data.correct, goalNum)
+	console.log(data)
 	bc.Submissions.insert(data);
-	res.end();
+	res.json(newBias);
 })
+
+
+
 
 app.listen(3001,function(){
 	console.log('listening on port 3000');
