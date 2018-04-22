@@ -13,15 +13,13 @@ app.get('/',function(req,res){
 	res.sendFile('./index.html');
 });
 
-var goalDict = {
+let goalDict = {
 	red: 0,
 	green: 1,
 	blue: 2
 }
 
-function biasing(arr){
-	
-}
+//should take in current bias array and output new bias array
 
 app.post('/colors',function(req,res){
 	console.log(req.body.data)
@@ -38,9 +36,12 @@ app.post('/colors',function(req,res){
 	data.correct = Boolean(data.answer == data.selected);
 
 	Submissions.insert(data);
-	res.end();
+
+	//handle user response
+
+	res.json();
 })
 
-app.listen(3000,function(){
+app.listen(3001,function(){
 	console.log('listening on port 3000');
 });

@@ -182,5 +182,28 @@
     "goal": "green",
     "answer": 1,
     "correct": true
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        30,
+        176,
+        6
+      ],
+      [
+        110,
+        204,
+        2
+      ],
+      [
+        67,
+        99,
+        17
+      ]
+    ],
+    "goal": "green",
+    "answer": 1,
+    "correct": true
   }
 ]
