@@ -28,6 +28,7 @@ function biasing(biasArr,goal,selection){
 		biasARr[selection]--
 	}
 }
+//should take in current bias array and output new bias array
 
 app.post('/colors',function(req,res){
 	console.log(req.body.data)
@@ -47,6 +48,6 @@ app.post('/colors',function(req,res){
 	res.end();
 })
 
-app.listen(3000,function(){
+app.listen(3001,function(){
 	console.log('listening on port 3000');
 });

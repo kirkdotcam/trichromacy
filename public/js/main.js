@@ -1,5 +1,22 @@
 var colorWheel = ['red', 'blue', 'green'];
 
+function biasing(arr,correct,goalNum){
+	let biasArr = [];
+	//if it's right, iterate
+	if(correct){
+		arr[goalNum]++;
+		biasArr = arr;
+	}
+	else{
+		biasArr = arr.map((el,i)=>{
+			if(!(i==goalNum)){
+				el++
+			}
+		})
+	}
+	return biasArr
+}
+
 $(document).ready(function () {
   var $colors = $('#colorDiv');
   //delegate colorAjax() to colorDiv
@@ -32,6 +49,7 @@ $(document).ready(function () {
     colorGen()
   })
 
+  //when finished with biasing on server side, modify this to accept a biasing array.
   function colorGen() {
     $colors.empty()
     var text = $('<h3>');
