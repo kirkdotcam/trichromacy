@@ -35,7 +35,7 @@ $(document).ready(function () {
   function colorGen() {
     $colors.empty()
     var text = $('<h3>');
-    var newColor = colorWheel[Math.floor(Math.random() * 2) + 1]
+    var newColor = colorWheel[Math.floor(Math.random() * 3)]
     text.text(`Which color has the most ${newColor}?`);
     text.attr('id','goalColor');
     text.data('newColor',newColor);
