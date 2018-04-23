@@ -55,6 +55,6 @@ app.post('/colors',function(req,res){
 
 
 
-app.listen(3001,function(){
+app.listen(3000,function(){
 	console.log('listening on port 3000');
 });

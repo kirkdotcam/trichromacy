@@ -1,12 +1,15 @@
 .colorBox{
-  height: 100px;
-  width: 100px;
-  border-width: 15px;
+  height: 20em;
+  width: 30%;
+  border-width: 1px;
   border-style: solid;
   border-color:black;
   float:left;
+  margin-left:10px
 }
 
 #colorDiv{
   width: 600px;
+  margin-left:10%;
+  margin-right:10%;
 }
