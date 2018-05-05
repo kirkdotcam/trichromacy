@@ -17,15 +17,15 @@ let goalDict = {
 	red: 0,
 	green: 1,
 	blue: 2
-}
+};
 
 function biasing(biasArr,correct,goalNum){
 
 	if (correct && biasArr[goalNum] > 1){
-		biasArr[goalNum]--
+		biasArr[goalNum]--;
 	}
 	else if(biasArr[goalNum] < 15 ){
-		biasArr[goalNum]++
+		biasArr[goalNum]++;
 	}
 	return biasArr
 }
@@ -50,7 +50,7 @@ app.post('/colors',function(req,res){
 	console.log(data)
 	bc.Submissions.insert(data);
 	res.json(newBias);
-})
+});
 
 
 

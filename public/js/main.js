@@ -1,6 +1,6 @@
 var colorWheel = ['red', 'green', 'blue'];
 var biasArray = [5,5,5];
-
+var userId = Math.random().toString(36).substring(2, 15);
 
 $(document).ready(function () {
   var $colors = $('#colorDiv');
@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 
   $colors.on('click','.colorBox',function(){
-    var colorData = {}
+    var colorData = {};
 
     colorData.selected = parseInt($(this).attr('id'));
 
@@ -28,8 +28,13 @@ $(document).ready(function () {
 
 		colorData.bias = biasArray;
 		console.log(colorData)
+<<<<<<< HEAD
 
     $.post('/colors',colorData)
+=======
+    colorData.userId = userId;
+    $.post('/colors',{data:JSON.stringify(colorData)})
+>>>>>>> 33073efe4f5f4b7e2841e75e92e69694625b911e
     .done(function(data){
       console.log(`data submitted `,data);
 			biasArray=data;
