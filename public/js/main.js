@@ -29,7 +29,7 @@ $(document).ready(function () {
 		colorData.bias = biasArray;
 		console.log(colorData)
 
-    $.post('/colors',{data:JSON.stringify(colorData)})
+    $.post('/colors',colorData)
     .done(function(data){
       console.log(`data submitted `,data);
 			biasArray=data;
