@@ -3,3276 +3,2139 @@
     "selected": 2,
     "choices": [
       [
-        40,
-        14,
-        15
-      ],
-      [
-        234,
-        90,
+        1,
+        171,
         8
       ],
       [
-        195,
-        247,
-        20
+        66,
+        174,
+        21
+      ],
+      [
+        189,
+        111,
+        22
       ]
     ],
     "goal": "green",
     "bias": [
       5,
-      4,
+      6,
       5
     ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        161,
-        14,
-        22
-      ],
-      [
-        249,
-        53,
-        15
-      ],
-      [
-        158,
-        140,
-        12
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      5,
-      4,
-      4
-    ],
-    "answer": 0,
-    "correct": true
+    "answer": 1,
+    "correct": false,
+    "_id": "9c7hffrtp5l",
+    "_createdDate": 1524977265189,
+    "_updatedDate": 1524977265189
   },
   {
     "selected": 1,
     "choices": [
       [
-        207,
-        138,
-        19
+        254,
+        134,
+        2
       ],
       [
-        183,
-        80,
-        6
+        123,
+        251,
+        12
       ],
       [
-        53,
-        212,
-        13
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      6,
-      4,
-      4
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        32,
-        93,
-        11
-      ],
-      [
-        69,
-        77,
-        null
-      ],
-      [
-        36,
-        35,
-        8
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      6,
-      4,
-      5
-    ],
-    "answer": -1,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        145,
-        82,
-        1
-      ],
-      [
-        216,
-        180,
-        24
-      ],
-      [
-        226,
-        109,
+        240,
+        52,
         14
       ]
     ],
-    "goal": "green",
-    "bias": [
-      6,
-      5,
-      5
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        82,
-        92,
-        23
-      ],
-      [
-        216,
-        216,
-        2
-      ],
-      [
-        51,
-        98,
-        18
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      6,
-      5,
-      6
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        16,
-        200,
-        20
-      ],
-      [
-        142,
-        232,
-        12
-      ],
-      [
-        160,
-        171,
-        20
-      ]
-    ],
     "goal": "red",
     "bias": [
-      5,
-      5,
-      6
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        163,
-        55,
-        19
-      ],
-      [
-        129,
-        38,
-        8
-      ],
-      [
-        170,
-        183,
-        15
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      5,
       6,
-      6
+      6,
+      5
     ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        169,
-        163,
-        9
-      ],
-      [
-        139,
-        155,
-        7
-      ],
-      [
-        74,
-        169,
-        25
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      5,
-      7,
-      6
-    ],
-    "answer": 2,
-    "correct": false
+    "answer": 0,
+    "correct": false,
+    "_id": "5u63h1vjech",
+    "_createdDate": 1524977268631,
+    "_updatedDate": 1524977268631
   },
   {
     "selected": 0,
     "choices": [
       [
-        153,
-        29,
-        null
+        166,
+        232,
+        8
       ],
       [
-        163,
-        128,
+        29,
+        250,
+        11
+      ],
+      [
+        36,
+        63,
+        24
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      6,
+      7,
+      5
+    ],
+    "answer": 1,
+    "correct": false,
+    "_id": "8vq2tdnh2wn",
+    "_createdDate": 1524977269916,
+    "_updatedDate": 1524977269916
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        193,
+        199,
+        16
+      ],
+      [
+        24,
+        224,
+        13
+      ],
+      [
+        22,
+        103,
+        21
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      5,
+      7,
+      5
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "85alscrfk35",
+    "_createdDate": 1524977278567,
+    "_updatedDate": 1524977278567
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        101,
+        7,
+        13
+      ],
+      [
+        70,
+        17,
+        20
+      ],
+      [
+        148,
+        118,
+        1
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      5,
+      8,
+      5
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "gllwfgnfr5k",
+    "_createdDate": 1524977279392,
+    "_updatedDate": 1524977279392
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        251,
+        109,
+        24
+      ],
+      [
+        238,
+        139,
+        24
+      ],
+      [
+        190,
+        24,
+        4
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      5,
+      9,
+      5
+    ],
+    "answer": 1,
+    "correct": false,
+    "_id": "8476wv747we",
+    "_createdDate": 1524977279995,
+    "_updatedDate": 1524977279995
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        160,
+        125,
+        13
+      ],
+      [
+        172,
+        93,
+        9
+      ],
+      [
+        66,
+        26,
+        9
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      5,
+      8,
+      5
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "qq3pjv66y8",
+    "_createdDate": 1524977280580,
+    "_updatedDate": 1524977280580
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        34,
+        74,
+        5
+      ],
+      [
+        190,
+        54,
         null
       ],
       [
         226,
-        37,
-        9
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      5,
-      8,
-      6
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        22,
-        187,
-        15
-      ],
-      [
-        37,
-        247,
-        null
-      ],
-      [
-        175,
-        71,
-        11
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      4,
-      8,
-      6
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        37,
-        183,
-        8
-      ],
-      [
-        161,
-        10,
-        24
-      ],
-      [
-        133,
-        249,
-        15
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      4,
-      9,
-      6
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        174,
-        112,
-        12
-      ],
-      [
-        125,
-        174,
-        11
-      ],
-      [
-        231,
-        156,
-        15
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      4,
-      8,
-      6
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        13,
-        155,
-        9
-      ],
-      [
-        210,
-        244,
+        14,
         2
-      ],
-      [
-        138,
-        156,
-        24
       ]
     ],
-    "goal": "red",
+    "goal": "blue",
     "bias": [
       5,
       8,
       6
     ],
-    "answer": 1,
-    "correct": false
+    "answer": -1,
+    "correct": false,
+    "_id": "aqngq5wrh29",
+    "_createdDate": 1524977724376,
+    "_updatedDate": 1524977724376
   },
   {
-    "selected": 2,
+    "selected": 0,
     "choices": [
       [
-        109,
-        150,
-        7
+        192,
+        17,
+        22
       ],
       [
-        195,
-        240,
-        13
+        223,
+        232,
+        3
       ],
       [
-        194,
-        1,
+        246,
+        65,
+        5
+      ]
+    ],
+    "goal": "blue",
+    "bias": [
+      5,
+      8,
+      5
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "uvro48so4hr",
+    "_createdDate": 1524977726308,
+    "_updatedDate": 1524977726308
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        34,
+        188,
+        5
+      ],
+      [
+        149,
+        55,
+        20
+      ],
+      [
+        148,
+        181,
         17
       ]
     ],
     "goal": "green",
     "bias": [
       5,
-      9,
-      6
+      7,
+      5
     ],
-    "answer": 1,
-    "correct": false
+    "answer": 0,
+    "correct": true,
+    "_id": "to9hcpgywqm",
+    "_createdDate": 1524977727373,
+    "_updatedDate": 1524977727373
   },
   {
     "selected": 1,
     "choices": [
       [
-        0,
-        133,
-        23
-      ],
-      [
-        130,
-        220,
-        9
-      ],
-      [
-        50,
-        160,
+        153,
+        232,
         5
+      ],
+      [
+        222,
+        103,
+        15
+      ],
+      [
+        5,
+        189,
+        8
       ]
     ],
     "goal": "red",
     "bias": [
       4,
-      9,
-      6
+      7,
+      5
     ],
     "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        191,
-        10,
-        18
-      ],
-      [
-        151,
-        203,
-        19
-      ],
-      [
-        24,
-        80,
-        16
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      3,
-      9,
-      6
-    ],
-    "answer": 0,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        85,
-        106,
-        3
-      ],
-      [
-        133,
-        135,
-        22
-      ],
-      [
-        195,
-        174,
-        5
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      3,
-      10,
-      6
-    ],
-    "answer": 2,
-    "correct": false
+    "correct": true,
+    "_id": "a0il8h26ntl",
+    "_createdDate": 1524977728277,
+    "_updatedDate": 1524977728277
   },
   {
     "selected": 2,
     "choices": [
       [
-        162,
+        86,
+        127,
+        10
+      ],
+      [
+        231,
+        50,
+        18
+      ],
+      [
+        245,
+        125,
+        8
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      3,
+      7,
+      5
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "iyb0qhk3l98",
+    "_createdDate": 1524977729676,
+    "_updatedDate": 1524977729676
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        234,
+        73,
+        14
+      ],
+      [
+        46,
+        96,
+        20
+      ],
+      [
+        248,
+        52,
+        24
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      8,
+      5
+    ],
+    "answer": 1,
+    "correct": false,
+    "_id": "ekvmlyirn0e",
+    "_createdDate": 1524977732427,
+    "_updatedDate": 1524977732427
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        125,
+        176,
+        8
+      ],
+      [
+        231,
+        36,
+        22
+      ],
+      [
+        196,
+        132,
+        14
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      7,
+      5
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "4li86chtxff",
+    "_createdDate": 1524977733222,
+    "_updatedDate": 1524977733222
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        139,
+        35,
+        24
+      ],
+      [
+        200,
+        80,
+        19
+      ],
+      [
+        193,
         123,
-        13
+        8
+      ]
+    ],
+    "goal": "blue",
+    "bias": [
+      3,
+      7,
+      4
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "xavjsgiwqk",
+    "_createdDate": 1524977734085,
+    "_updatedDate": 1524977734085
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        190,
+        49,
+        5
+      ],
+      [
+        13,
+        56,
+        19
+      ],
+      [
+        135,
+        40,
+        6
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      2,
+      7,
+      4
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "eu3ymq3td2f",
+    "_createdDate": 1524977735011,
+    "_updatedDate": 1524977735011
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        130,
+        175,
+        21
+      ],
+      [
+        110,
+        125,
+        12
+      ],
+      [
+        29,
+        146,
+        24
+      ]
+    ],
+    "goal": "blue",
+    "bias": [
+      2,
+      7,
+      3
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "creqem8xff6",
+    "_createdDate": 1524977735971,
+    "_updatedDate": 1524977735971
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        105,
+        89,
+        23
+      ],
+      [
+        161,
+        121,
+        20
+      ],
+      [
+        112,
+        186,
+        18
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      2,
+      6,
+      3
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "i5b7q3p9e4h",
+    "_createdDate": 1524977737100,
+    "_updatedDate": 1524977737100
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        38,
+        172,
+        23
+      ],
+      [
+        173,
+        221,
+        19
+      ],
+      [
+        231,
+        127,
+        2
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      2,
+      5,
+      3
+    ],
+    "answer": 1,
+    "correct": true,
+    "_id": "whf1tj67qwc",
+    "_createdDate": 1524977738700,
+    "_updatedDate": 1524977738700
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        227,
+        222,
+        4
+      ],
+      [
+        150,
+        149,
+        23
       ],
       [
         2,
-        138,
+        136,
+        8
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      1,
+      5,
+      3
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "cpw3cmyga8l",
+    "_createdDate": 1524977743518,
+    "_updatedDate": 1524977743518
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        108,
+        111,
+        16
+      ],
+      [
+        89,
+        248,
+        11
+      ],
+      [
+        129,
+        144,
+        23
+      ]
+    ],
+    "goal": "blue",
+    "bias": [
+      1,
+      5,
+      4
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "dv9de552e7",
+    "_createdDate": 1524977746475,
+    "_updatedDate": 1524977746475
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        103,
+        191,
         6
       ],
       [
-        251,
-        149,
+        33,
+        181,
+        14
+      ],
+      [
+        195,
+        124,
+        4
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      1,
+      6,
+      4
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "skdb6ov6cd",
+    "_createdDate": 1524977747890,
+    "_updatedDate": 1524977747890
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        161,
+        68,
+        18
+      ],
+      [
+        128,
+        174,
+        14
+      ],
+      [
+        228,
+        131,
+        9
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      1,
+      5,
+      4
+    ],
+    "answer": 1,
+    "correct": true,
+    "_id": "hemss183lm",
+    "_createdDate": 1524977749300,
+    "_updatedDate": 1524977749300
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        55,
+        179,
+        11
+      ],
+      [
+        177,
+        12,
+        15
+      ],
+      [
+        194,
+        241,
+        2
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      1,
+      6,
+      4
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "7kkyj850oad",
+    "_createdDate": 1524977750070,
+    "_updatedDate": 1524977750070
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        119,
+        83,
+        1
+      ],
+      [
+        107,
+        175,
+        22
+      ],
+      [
+        6,
+        78,
+        17
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      1,
+      5,
+      4
+    ],
+    "answer": 1,
+    "correct": true,
+    "_id": "uh9qc3nx6l",
+    "_createdDate": 1524977752094,
+    "_updatedDate": 1524977752094
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        239,
+        104,
+        20
+      ],
+      [
+        199,
+        71,
+        6
+      ],
+      [
+        206,
+        215,
+        12
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      2,
+      5,
+      4
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "oy6gi7gtgme",
+    "_createdDate": 1524977753045,
+    "_updatedDate": 1524977753045
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        178,
+        118,
+        8
+      ],
+      [
+        46,
+        80,
+        22
+      ],
+      [
+        171,
+        90,
+        11
+      ]
+    ],
+    "goal": "blue",
+    "bias": [
+      2,
+      5,
+      3
+    ],
+    "answer": 1,
+    "correct": true,
+    "_id": "etyd7ijfyzw",
+    "_createdDate": 1524977753789,
+    "_updatedDate": 1524977753789
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        105,
+        97,
+        7
+      ],
+      [
+        228,
+        124,
+        3
+      ],
+      [
+        47,
+        72,
+        7
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      2,
+      6,
+      3
+    ],
+    "answer": 1,
+    "correct": false,
+    "_id": "mrwd91jsupq",
+    "_createdDate": 1524977755075,
+    "_updatedDate": 1524977755075
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        89,
+        117,
+        22
+      ],
+      [
+        224,
+        4,
+        3
+      ],
+      [
+        208,
+        134,
+        17
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      2,
+      5,
+      3
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "5qx6irk9w45",
+    "_createdDate": 1524977756929,
+    "_updatedDate": 1524977756929
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        79,
+        198,
+        10
+      ],
+      [
+        83,
+        174,
+        12
+      ],
+      [
+        98,
+        222,
+        7
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      3,
+      5,
+      3
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "x96oxivhrwm",
+    "_createdDate": 1524977759194,
+    "_updatedDate": 1524977759194
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        29,
+        168,
+        17
+      ],
+      [
+        50,
+        225,
+        6
+      ],
+      [
+        174,
+        196,
+        14
+      ]
+    ],
+    "goal": "blue",
+    "bias": [
+      3,
+      5,
+      2
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "pbw4cgy4lvo",
+    "_createdDate": 1524977760262,
+    "_updatedDate": 1524977760262
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        5,
+        233,
+        12
+      ],
+      [
+        106,
+        209,
+        23
+      ],
+      [
+        29,
+        190,
         3
       ]
     ],
     "goal": "green",
     "bias": [
       3,
-      9,
-      6
+      6,
+      2
     ],
-    "answer": 2,
-    "correct": true
+    "answer": 0,
+    "correct": false,
+    "_id": "gmc3hm3wyln",
+    "_createdDate": 1524977761345,
+    "_updatedDate": 1524977761345
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        42,
+        202,
+        6
+      ],
+      [
+        180,
+        212,
+        19
+      ],
+      [
+        73,
+        178,
+        null
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      7,
+      2
+    ],
+    "answer": 1,
+    "correct": false,
+    "_id": "uon9vuivn",
+    "_createdDate": 1524977762522,
+    "_updatedDate": 1524977762522
   },
   {
     "selected": 1,
     "choices": [
       [
-        241,
-        17,
+        145,
+        106,
+        15
+      ],
+      [
+        158,
+        89,
+        16
+      ],
+      [
+        207,
+        177,
+        16
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      8,
+      2
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "15mfkb8n454",
+    "_createdDate": 1524977763870,
+    "_updatedDate": 1524977763870
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        64,
+        111,
+        9
+      ],
+      [
+        172,
+        15,
+        7
+      ],
+      [
+        123,
+        91,
+        22
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      7,
+      2
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "smfwwf63sh",
+    "_createdDate": 1524977765591,
+    "_updatedDate": 1524977765591
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        189,
+        220,
+        25
+      ],
+      [
+        187,
+        96,
+        5
+      ],
+      [
+        35,
+        78,
+        14
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      8,
+      2
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "kck3jgbf4oc",
+    "_createdDate": 1524977777278,
+    "_updatedDate": 1524977777278
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        114,
+        29,
+        24
+      ],
+      [
+        247,
+        203,
+        3
+      ],
+      [
+        9,
+        249,
+        11
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      7,
+      2
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "sne30lnl77s",
+    "_createdDate": 1524977778070,
+    "_updatedDate": 1524977778070
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        246,
+        246,
+        21
+      ],
+      [
+        168,
+        29,
+        18
+      ],
+      [
+        228,
+        179,
+        21
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      6,
+      2
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "w4uycf3qlok",
+    "_createdDate": 1524977781948,
+    "_updatedDate": 1524977781948
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        218,
+        0,
+        10
+      ],
+      [
+        185,
+        199,
+        7
+      ],
+      [
+        94,
+        226,
+        19
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      5,
+      2
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "jd0xknt1tto",
+    "_createdDate": 1524977784473,
+    "_updatedDate": 1524977784473
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        30,
+        47,
+        24
+      ],
+      [
+        162,
+        148,
+        24
+      ],
+      [
+        16,
+        113,
+        19
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      6,
+      2
+    ],
+    "answer": 1,
+    "correct": false,
+    "_id": "lzfd9lg766",
+    "_createdDate": 1524977790532,
+    "_updatedDate": 1524977790532
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        76,
+        106,
+        25
+      ],
+      [
+        217,
+        187,
+        21
+      ],
+      [
+        249,
+        197,
+        19
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      3,
+      7,
+      2
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "kdwbgl9uit",
+    "_createdDate": 1524977792842,
+    "_updatedDate": 1524977792842
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        57,
+        175,
+        3
+      ],
+      [
+        100,
+        152,
+        21
+      ],
+      [
+        190,
+        199,
+        null
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      4,
+      7,
+      2
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "pi8oyyo7nv",
+    "_createdDate": 1524977794182,
+    "_updatedDate": 1524977794182
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        173,
+        231,
+        2
+      ],
+      [
+        214,
+        136,
+        15
+      ],
+      [
+        70,
+        186,
+        23
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      4,
+      8,
+      2
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "p5x2ww4tcu",
+    "_createdDate": 1524977797021,
+    "_updatedDate": 1524977797021
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        94,
+        201,
+        4
+      ],
+      [
+        230,
+        49,
+        18
+      ],
+      [
+        76,
+        231,
+        4
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      4,
+      9,
+      2
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "cy8gkwns2nd",
+    "_createdDate": 1524977798388,
+    "_updatedDate": 1524977798388
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        31,
+        208,
         12
+      ],
+      [
+        50,
+        50,
+        14
+      ],
+      [
+        176,
+        223,
+        4
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      4,
+      10,
+      2
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "q0pgmdenhv",
+    "_createdDate": 1524977799247,
+    "_updatedDate": 1524977799247
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        89,
+        74,
+        null
+      ],
+      [
+        51,
+        4,
+        16
+      ],
+      [
+        163,
+        244,
+        13
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      4,
+      9,
+      2
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "853fzuqylqb",
+    "_createdDate": 1524977799891,
+    "_updatedDate": 1524977799891
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        242,
+        120,
+        20
+      ],
+      [
+        249,
+        30,
+        9
+      ],
+      [
+        134,
+        170,
+        9
+      ]
+    ],
+    "goal": "blue",
+    "bias": [
+      4,
+      9,
+      1
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "wprluw875h",
+    "_createdDate": 1524977802927,
+    "_updatedDate": 1524977802927
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        73,
+        23,
+        20
+      ],
+      [
+        178,
+        199,
+        7
+      ],
+      [
+        40,
+        209,
+        22
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      4,
+      10,
+      1
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "238quwhfibe",
+    "_createdDate": 1524977804479,
+    "_updatedDate": 1524977804479
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        252,
+        82,
+        3
+      ],
+      [
+        70,
+        210,
+        11
+      ],
+      [
+        232,
+        13,
+        16
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      4,
+      9,
+      1
+    ],
+    "answer": 1,
+    "correct": true,
+    "_id": "vedn8k4bgyd",
+    "_createdDate": 1524977805378,
+    "_updatedDate": 1524977805378
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        76,
+        191,
+        2
+      ],
+      [
+        214,
+        231,
+        18
+      ],
+      [
+        24,
+        54,
+        24
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      5,
+      9,
+      1
+    ],
+    "answer": 1,
+    "correct": false,
+    "_id": "rmqc13oh6g",
+    "_createdDate": 1524977807145,
+    "_updatedDate": 1524977807145
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        114,
+        9,
+        14
+      ],
+      [
+        0,
+        166,
+        2
+      ],
+      [
+        51,
+        155,
+        12
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      5,
+      10,
+      1
+    ],
+    "answer": 1,
+    "correct": false,
+    "_id": "9aw8uk7i37",
+    "_createdDate": 1524977808976,
+    "_updatedDate": 1524977808976
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        145,
+        153,
+        23
+      ],
+      [
+        77,
+        25,
+        null
+      ],
+      [
+        84,
+        193,
+        19
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      6,
+      10,
+      1
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "1cy3u5k99m0i",
+    "_createdDate": 1524977809867,
+    "_updatedDate": 1524977809867
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        221,
+        214,
+        10
+      ],
+      [
+        179,
+        132,
+        23
+      ],
+      [
+        222,
+        229,
+        25
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      7,
+      10,
+      1
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "w7hr8mw6ror",
+    "_createdDate": 1524977811789,
+    "_updatedDate": 1524977811789
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        24,
+        106,
+        2
+      ],
+      [
+        81,
+        193,
+        4
+      ],
+      [
+        254,
+        196,
+        20
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      6,
+      10,
+      1
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "vzs1lb9is6",
+    "_createdDate": 1524977812799,
+    "_updatedDate": 1524977812799
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        242,
+        109,
+        17
+      ],
+      [
+        114,
+        107,
+        20
+      ],
+      [
+        10,
+        119,
+        null
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      6,
+      9,
+      1
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "yt9iqd42tha",
+    "_createdDate": 1524977814036,
+    "_updatedDate": 1524977814036
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        233,
+        224,
+        7
+      ],
+      [
+        33,
+        161,
+        18
+      ],
+      [
+        66,
+        68,
+        22
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      6,
+      10,
+      1
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "59tdpje03uv",
+    "_createdDate": 1525352973643,
+    "_updatedDate": 1525352973643
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        56,
+        131,
+        15
+      ],
+      [
+        66,
+        199,
+        4
+      ],
+      [
+        218,
+        9,
+        15
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      7,
+      10,
+      1
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "90dkfmmnueu",
+    "_createdDate": 1525352974268,
+    "_updatedDate": 1525352974268
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        190,
+        89,
+        22
+      ],
+      [
+        3,
+        184,
+        1
+      ],
+      [
+        36,
+        229,
+        1
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      7,
+      11,
+      1
+    ],
+    "answer": 2,
+    "correct": false,
+    "_id": "7qgwttm7xun",
+    "_createdDate": 1525352975064,
+    "_updatedDate": 1525352975064
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        144,
+        96,
+        10
+      ],
+      [
+        115,
+        230,
+        16
+      ],
+      [
+        77,
+        198,
+        7
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      6,
+      11,
+      1
+    ],
+    "answer": 0,
+    "correct": true,
+    "_id": "ixz3ocgjwve",
+    "_createdDate": 1525352976187,
+    "_updatedDate": 1525352976187
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        216,
+        20,
+        24
+      ],
+      [
+        177,
+        147,
+        5
+      ],
+      [
+        65,
+        241,
+        1
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      6,
+      10,
+      1
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "sr965srr7y",
+    "_createdDate": 1525352976942,
+    "_updatedDate": 1525352976942
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        196,
+        134,
+        9
+      ],
+      [
+        157,
+        116,
+        24
+      ],
+      [
+        198,
+        253,
+        15
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      6,
+      9,
+      1
+    ],
+    "answer": 2,
+    "correct": true,
+    "_id": "ms1gtzztm3g",
+    "_createdDate": 1525352978094,
+    "_updatedDate": 1525352978094
+  },
+  {
+    "selected": 0,
+    "choices": [
+      [
+        140,
+        234,
+        20
+      ],
+      [
+        246,
+        93,
+        9
       ],
       [
         60,
         113,
-        5
-      ],
-      [
-        86,
-        246,
-        null
+        23
       ]
     ],
     "goal": "green",
     "bias": [
-      3,
-      10,
-      6
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        31,
-        106,
-        7
-      ],
-      [
-        62,
-        11,
-        16
-      ],
-      [
-        147,
-        85,
-        2
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      3,
-      9,
-      6
+      6,
+      8,
+      1
     ],
     "answer": 0,
-    "correct": true
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        83,
-        230,
-        15
-      ],
-      [
-        9,
-        129,
-        16
-      ],
-      [
-        242,
-        78,
-        4
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      2,
-      9,
-      6
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        226,
-        135,
-        13
-      ],
-      [
-        91,
-        46,
-        25
-      ],
-      [
-        108,
-        157,
-        11
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      2,
-      9,
-      5
-    ],
-    "answer": 1,
-    "correct": true
+    "correct": true,
+    "_id": "ktb017rpsls",
+    "_createdDate": 1525352978958,
+    "_updatedDate": 1525352978958
   },
   {
     "selected": 0,
     "choices": [
       [
-        81,
-        18,
-        20
+        223,
+        71,
+        9
       ],
-      [
-        73,
-        21,
-        5
-      ],
-      [
-        181,
-        97,
-        12
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      2,
-      10,
-      5
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        49,
-        58,
-        10
-      ],
-      [
-        15,
-        226,
-        2
-      ],
-      [
-        6,
-        194,
-        6
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      2,
-      9,
-      5
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
       [
         54,
-        182,
-        21
-      ],
-      [
-        177,
-        137,
-        6
-      ],
-      [
-        29,
-        123,
-        20
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      2,
-      9,
-      4
-    ],
-    "answer": 0,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        163,
-        169,
-        2
-      ],
-      [
-        205,
-        187,
-        15
-      ],
-      [
-        208,
-        175,
-        7
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      2,
-      10,
-      4
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        201,
-        249,
-        16
-      ],
-      [
-        96,
-        121,
-        13
-      ],
-      [
-        12,
-        209,
-        23
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      2,
-      11,
-      4
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        53,
-        1,
-        14
-      ],
-      [
-        233,
-        239,
-        24
-      ],
-      [
-        3,
-        165,
-        10
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      3,
-      11,
-      4
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        224,
-        127,
-        10
-      ],
-      [
-        34,
-        212,
-        19
-      ],
-      [
-        183,
-        96,
-        19
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      3,
-      12,
-      4
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        87,
-        127,
-        19
-      ],
-      [
-        228,
-        142,
-        4
-      ],
-      [
-        117,
-        75,
-        10
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      3,
-      11,
-      4
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        21,
-        79,
-        19
-      ],
-      [
-        109,
-        3,
-        11
-      ],
-      [
-        33,
-        201,
-        24
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      3,
-      12,
-      4
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        241,
-        113,
-        10
-      ],
-      [
-        245,
-        174,
-        5
-      ],
-      [
-        154,
-        190,
-        11
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      3,
-      13,
-      4
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        112,
-        155,
-        9
-      ],
-      [
-        8,
-        230,
-        19
-      ],
-      [
-        147,
-        66,
-        8
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      3,
-      13,
-      5
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        110,
-        145,
-        14
-      ],
-      [
-        180,
-        66,
-        9
-      ],
-      [
-        16,
-        215,
-        1
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      3,
-      14,
-      5
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        243,
-        222,
-        21
-      ],
-      [
-        15,
-        95,
-        5
-      ],
-      [
-        177,
-        183,
-        14
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      2,
-      14,
-      5
-    ],
-    "answer": 0,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        156,
-        94,
-        12
-      ],
-      [
-        179,
-        172,
-        11
-      ],
-      [
-        133,
-        30,
-        4
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      2,
-      13,
-      5
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        123,
-        57,
-        23
-      ],
-      [
-        229,
-        241,
-        8
-      ],
-      [
-        190,
-        235,
-        13
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      2,
-      13,
-      6
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        231,
-        209,
-        14
-      ],
-      [
-        184,
-        210,
-        7
-      ],
-      [
-        236,
-        24,
-        23
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      2,
-      13,
-      7
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        250,
-        47,
-        18
-      ],
-      [
-        177,
-        215,
-        19
-      ],
-      [
-        64,
-        108,
-        13
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      2,
-      14,
-      7
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        151,
-        57,
-        12
-      ],
-      [
-        25,
-        161,
-        17
-      ],
-      [
-        102,
-        143,
-        24
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      2,
-      14,
-      8
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        122,
-        173,
-        16
-      ],
-      [
-        202,
-        246,
-        10
-      ],
-      [
-        50,
-        173,
-        6
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      2,
-      15,
-      8
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        161,
-        245,
-        24
-      ],
-      [
-        159,
-        19,
-        12
-      ],
-      [
-        146,
-        76,
-        3
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      3,
-      15,
-      8
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        81,
-        176,
-        13
-      ],
-      [
-        191,
-        109,
-        5
-      ],
-      [
-        176,
-        146,
-        15
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      4,
-      15,
-      8
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        51,
-        29,
-        3
-      ],
-      [
-        21,
-        119,
-        10
-      ],
-      [
-        19,
-        241,
-        17
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      4,
-      14,
-      8
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        242,
-        176,
-        8
-      ],
-      [
-        76,
-        69,
-        12
-      ],
-      [
-        227,
-        140,
-        23
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      4,
-      15,
-      8
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        241,
-        145,
-        7
-      ],
-      [
-        12,
-        80,
-        17
-      ],
-      [
-        122,
-        244,
-        19
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      4,
-      15,
-      9
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        165,
-        117,
-        13
-      ],
-      [
-        112,
-        146,
-        15
-      ],
-      [
-        115,
-        111,
-        17
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      4,
-      14,
-      9
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        47,
-        220,
-        1
-      ],
-      [
-        39,
-        106,
-        5
-      ],
-      [
-        146,
-        106,
-        22
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      4,
-      15,
-      9
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        189,
-        0,
-        null
-      ],
-      [
-        64,
-        104,
-        3
-      ],
-      [
-        135,
-        109,
-        13
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      5,
-      15,
-      9
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        163,
-        103,
-        25
-      ],
-      [
-        5,
-        107,
-        18
-      ],
-      [
-        246,
-        58,
-        2
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      6,
-      15,
-      9
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        154,
-        47,
-        1
-      ],
-      [
-        185,
-        203,
-        10
-      ],
-      [
-        80,
-        173,
-        23
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      6,
-      15,
-      10
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        182,
-        145,
-        18
-      ],
-      [
-        69,
-        148,
-        6
-      ],
-      [
-        89,
-        162,
-        5
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      7,
-      15,
-      10
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        72,
-        160,
-        21
-      ],
-      [
-        200,
-        42,
-        2
-      ],
-      [
-        121,
-        82,
-        22
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      6,
-      15,
-      10
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        10,
-        35,
-        21
-      ],
-      [
-        161,
-        45,
-        4
-      ],
-      [
-        58,
-        47,
-        20
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      6,
-      15,
-      10
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        161,
-        10,
-        18
-      ],
-      [
-        79,
-        41,
-        9
-      ],
-      [
-        34,
-        245,
-        16
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      6,
-      15,
-      11
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        34,
-        99,
-        20
-      ],
-      [
-        227,
-        176,
-        21
-      ],
-      [
-        141,
-        227,
-        9
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      6,
-      15,
-      11
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        4,
-        51,
-        13
-      ],
-      [
-        26,
-        105,
-        13
-      ],
-      [
-        75,
-        194,
-        8
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      7,
-      15,
-      11
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        10,
-        176,
-        14
-      ],
-      [
-        14,
-        135,
-        13
-      ],
-      [
-        223,
-        140,
-        19
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      6,
-      15,
-      11
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        139,
-        213,
-        8
-      ],
-      [
-        225,
-        155,
-        25
-      ],
-      [
-        242,
-        124,
-        18
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      6,
-      15,
-      11
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        57,
-        232,
-        23
-      ],
-      [
-        244,
-        141,
-        25
-      ],
-      [
-        147,
-        218,
-        19
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      5,
-      15,
-      11
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        247,
-        195,
-        6
-      ],
-      [
-        62,
-        165,
-        null
-      ],
-      [
-        254,
-        89,
-        null
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      5,
-      15,
-      11
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        235,
-        154,
-        17
-      ],
-      [
-        33,
-        48,
-        21
-      ],
-      [
-        32,
-        222,
-        13
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      5,
-      15,
-      11
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        9,
-        14,
-        5
-      ],
-      [
-        178,
-        32,
-        10
-      ],
-      [
-        84,
-        135,
-        15
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      5,
-      15,
-      11
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        235,
-        69,
-        null
-      ],
-      [
-        224,
-        112,
-        22
-      ],
-      [
-        142,
-        227,
-        14
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      5,
-      15,
-      11
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        160,
-        73,
-        null
-      ],
-      [
-        225,
-        6,
-        9
-      ],
-      [
-        80,
-        248,
-        22
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      5,
-      14,
-      11
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        239,
-        228,
-        16
-      ],
-      [
-        127,
-        163,
-        19
-      ],
-      [
-        230,
-        15,
-        10
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      5,
-      14,
-      10
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        15,
-        138,
-        15
-      ],
-      [
-        234,
-        176,
-        17
-      ],
-      [
-        76,
-        24,
-        18
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      6,
-      14,
-      10
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        200,
-        93,
-        8
-      ],
-      [
-        231,
-        99,
-        1
-      ],
-      [
-        235,
-        216,
-        11
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      6,
-      15,
-      10
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        243,
-        88,
-        3
-      ],
-      [
-        45,
-        14,
-        12
-      ],
-      [
-        231,
-        253,
-        2
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      6,
-      14,
-      10
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        23,
-        233,
-        8
-      ],
-      [
-        119,
-        154,
-        2
-      ],
-      [
-        192,
-        90,
-        14
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      6,
-      14,
-      11
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        67,
-        75,
-        7
-      ],
-      [
-        20,
-        202,
-        13
-      ],
-      [
-        157,
-        174,
-        5
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      6,
-      14,
-      12
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        25,
-        235,
-        17
-      ],
-      [
-        33,
-        147,
-        14
-      ],
-      [
-        243,
-        8,
-        6
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      7,
-      14,
-      12
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        135,
-        239,
-        9
-      ],
-      [
-        121,
-        81,
-        3
-      ],
-      [
-        235,
-        118,
-        17
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      7,
-      14,
-      11
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        139,
-        154,
-        22
-      ],
-      [
-        135,
-        254,
-        14
-      ],
-      [
-        37,
-        197,
-        24
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      7,
-      14,
-      12
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        175,
-        225,
-        20
-      ],
-      [
-        6,
-        149,
-        17
-      ],
-      [
-        215,
-        25,
-        10
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      8,
-      14,
-      12
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        118,
-        35,
-        21
-      ],
-      [
-        176,
-        187,
-        16
-      ],
-      [
-        227,
-        7,
-        5
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      9,
-      14,
-      12
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        240,
         36,
-        6
+        18
       ],
       [
-        13,
-        32,
-        13
-      ],
-      [
-        227,
-        108,
-        17
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      9,
-      14,
-      13
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        184,
-        146,
-        9
-      ],
-      [
-        220,
-        56,
-        16
-      ],
-      [
-        56,
-        241,
-        16
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      9,
-      15,
-      13
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        212,
-        145,
-        1
-      ],
-      [
-        189,
-        40,
-        6
-      ],
-      [
-        139,
-        239,
-        3
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      9,
-      15,
-      13
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        133,
-        187,
-        9
-      ],
-      [
-        247,
-        215,
-        2
-      ],
-      [
-        251,
-        233,
-        1
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      9,
-      15,
-      13
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        139,
-        77,
-        4
-      ],
-      [
-        210,
-        51,
-        22
-      ],
-      [
-        18,
-        234,
-        8
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      9,
-      15,
-      13
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        219,
-        75,
-        2
-      ],
-      [
-        50,
-        132,
-        19
-      ],
-      [
-        95,
-        149,
-        21
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      9,
-      15,
-      14
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        125,
-        232,
-        3
-      ],
-      [
-        156,
-        12,
-        12
-      ],
-      [
-        78,
-        233,
-        3
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      9,
-      15,
-      15
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        182,
-        17,
-        4
-      ],
-      [
-        247,
-        53,
-        14
-      ],
-      [
-        86,
-        254,
-        9
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      8,
-      15,
-      15
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        161,
-        123,
-        23
-      ],
-      [
-        34,
-        35,
-        8
-      ],
-      [
-        6,
-        154,
-        15
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      8,
-      15,
-      14
-    ],
-    "answer": 0,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        169,
-        174,
-        13
-      ],
-      [
-        134,
-        198,
-        21
-      ],
-      [
-        208,
-        106,
-        15
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      8,
-      14,
-      14
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        46,
-        207,
-        10
-      ],
-      [
-        111,
-        239,
-        13
-      ],
-      [
-        40,
-        126,
-        5
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      8,
-      15,
-      14
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        146,
-        29,
-        12
-      ],
-      [
-        90,
-        146,
-        9
-      ],
-      [
-        49,
-        68,
-        20
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      8,
-      15,
-      15
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        182,
-        113,
-        6
-      ],
-      [
-        181,
-        148,
-        17
-      ],
-      [
-        237,
-        144,
-        1
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      8,
-      15,
-      14
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        55,
-        244,
-        2
-      ],
-      [
-        247,
-        139,
-        6
-      ],
-      [
-        242,
-        165,
-        19
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      8,
-      15,
-      15
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        223,
-        94,
-        null
-      ],
-      [
-        250,
-        48,
-        19
-      ],
-      [
-        160,
-        24,
-        15
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      8,
-      15,
-      15
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        27,
-        205,
-        20
-      ],
-      [
-        170,
-        12,
-        22
-      ],
-      [
-        143,
-        161,
-        24
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      9,
-      15,
-      15
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        248,
-        253,
-        6
-      ],
-      [
-        28,
-        201,
-        1
-      ],
-      [
-        41,
-        229,
-        2
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      9,
-      15,
-      15
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        195,
         196,
-        8
-      ],
-      [
-        63,
-        6,
-        4
-      ],
-      [
-        174,
-        248,
-        21
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      9,
-      15,
-      14
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        12,
-        213,
-        13
-      ],
-      [
-        227,
-        101,
-        21
-      ],
-      [
-        138,
-        191,
-        8
+        121,
+        18
       ]
     ],
     "goal": "red",
     "bias": [
+      5,
       8,
-      15,
-      14
-    ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        252,
-        73,
-        10
-      ],
-      [
-        140,
-        163,
-        20
-      ],
-      [
-        140,
-        161,
-        4
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      7,
-      15,
-      14
+      1
     ],
     "answer": 0,
-    "correct": true
+    "correct": true,
+    "_id": "y4sirhda6j9",
+    "_createdDate": 1525352979628,
+    "_updatedDate": 1525352979628
   },
   {
-    "selected": 1,
+    "selected": 2,
     "choices": [
       [
-        10,
-        87,
-        18
-      ],
-      [
-        97,
-        179,
-        9
-      ],
-      [
-        18,
-        238,
-        10
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      7,
-      15,
-      14
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        77,
-        173,
-        null
-      ],
-      [
-        33,
-        40,
-        7
-      ],
-      [
-        246,
         178,
-        24
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      8,
-      15,
-      14
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        120,
-        107,
-        13
-      ],
-      [
-        17,
-        45,
-        11
-      ],
-      [
-        140,
-        87,
-        24
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      8,
-      15,
-      15
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        15,
-        199,
-        19
-      ],
-      [
-        103,
-        99,
-        11
-      ],
-      [
-        31,
-        250,
-        19
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      8,
-      14,
-      15
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        212,
-        190,
-        10
-      ],
-      [
-        43,
-        110,
+        86,
         18
       ],
       [
-        30,
-        85,
-        8
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      9,
-      14,
-      15
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        212,
-        209,
-        5
-      ],
-      [
-        129,
-        21,
-        13
-      ],
-      [
-        66,
-        23,
-        13
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      10,
-      14,
-      15
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        103,
-        150,
-        6
-      ],
-      [
-        223,
-        107,
-        13
-      ],
-      [
-        127,
-        154,
-        22
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      10,
-      15,
-      15
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        84,
-        8,
-        22
-      ],
-      [
-        41,
-        226,
-        null
-      ],
-      [
-        33,
-        50,
+        162,
+        94,
         20
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      10,
-      15,
-      15
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        95,
-        67,
-        17
       ],
-      [
-        39,
-        176,
-        12
-      ],
-      [
-        63,
-        235,
-        7
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      10,
-      15,
-      15
-    ],
-    "answer": 0,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        129,
-        146,
-        18
-      ],
-      [
-        208,
-        246,
-        12
-      ],
-      [
-        226,
-        72,
-        11
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      10,
-      15,
-      15
-    ],
-    "answer": 1,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        218,
-        131,
-        8
-      ],
-      [
-        138,
-        84,
-        11
-      ],
-      [
-        174,
-        44,
-        23
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      10,
-      15,
-      15
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        120,
-        231,
-        2
-      ],
-      [
-        63,
-        8,
-        2
-      ],
-      [
-        42,
-        15,
-        25
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      10,
-      14,
-      15
-    ],
-    "answer": 0,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        153,
-        216,
-        10
-      ],
-      [
-        107,
-        103,
-        22
-      ],
-      [
-        220,
-        72,
-        4
-      ]
-    ],
-    "goal": "red",
-    "bias": [
-      11,
-      14,
-      15
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 0,
-    "choices": [
-      [
-        156,
-        39,
-        13
-      ],
-      [
-        139,
-        124,
-        11
-      ],
-      [
-        201,
-        126,
-        1
-      ]
-    ],
-    "goal": "green",
-    "bias": [
-      11,
-      15,
-      15
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 1,
-    "choices": [
       [
         98,
-        66,
+        114,
         13
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      6,
+      8,
+      1
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "urrrjngk9xf",
+    "_createdDate": 1525352981423,
+    "_updatedDate": 1525352981423
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        94,
+        118,
+        6
       ],
       [
-        227,
-        158,
+        199,
+        144,
         21
       ],
       [
-        97,
-        234,
-        12
+        248,
+        0,
+        16
       ]
     ],
-    "goal": "blue",
+    "goal": "red",
     "bias": [
-      11,
-      15,
-      14
+      5,
+      8,
+      1
     ],
-    "answer": 1,
-    "correct": true
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        35,
-        17,
-        15
-      ],
-      [
-        122,
-        163,
-        13
-      ],
-      [
-        203,
-        78,
-        6
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      11,
-      15,
-      15
-    ],
-    "answer": 0,
-    "correct": false
+    "answer": 2,
+    "correct": true,
+    "_id": "4bkuuyfvpcq",
+    "_createdDate": 1525352982924,
+    "_updatedDate": 1525352982924
   },
   {
     "selected": 1,
     "choices": [
       [
-        11,
-        33,
-        3
-      ],
-      [
-        67,
-        148,
-        5
-      ],
-      [
-        11,
-        109,
-        19
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      11,
-      15,
-      15
-    ],
-    "answer": 2,
-    "correct": false
-  },
-  {
-    "selected": 2,
-    "choices": [
-      [
-        227,
-        91,
-        13
-      ],
-      [
-        12,
-        178,
-        17
-      ],
-      [
-        65,
-        213,
-        22
-      ]
-    ],
-    "goal": "blue",
-    "bias": [
-      11,
-      15,
-      14
-    ],
-    "answer": 2,
-    "correct": true
-  },
-  {
-    "selected": 1,
-    "choices": [
-      [
-        200,
-        6,
-        3
-      ],
-      [
-        249,
-        102,
+        161,
+        31,
         2
       ],
       [
-        14,
-        145,
-        10
+        57,
+        249,
+        16
+      ],
+      [
+        226,
+        141,
+        23
       ]
     ],
     "goal": "green",
     "bias": [
-      11,
-      15,
-      14
+      5,
+      7,
+      1
     ],
-    "answer": 2,
-    "correct": false
+    "answer": 1,
+    "correct": true,
+    "_id": "a01ka8toixw",
+    "_createdDate": 1525352983861,
+    "_updatedDate": 1525352983861
+  },
+  {
+    "selected": 1,
+    "choices": [
+      [
+        171,
+        207,
+        19
+      ],
+      [
+        63,
+        112,
+        6
+      ],
+      [
+        84,
+        6,
+        13
+      ]
+    ],
+    "goal": "green",
+    "bias": [
+      5,
+      8,
+      1
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "b4nrl4l416i",
+    "_createdDate": 1525352984682,
+    "_updatedDate": 1525352984682
   },
   {
     "selected": 0,
     "choices": [
       [
-        94,
-        78,
+        146,
+        47,
         4
       ],
       [
-        230,
-        201,
-        17
+        154,
+        161,
+        24
       ],
       [
-        151,
-        108,
-        21
+        48,
+        76,
+        15
       ]
     ],
-    "goal": "blue",
+    "goal": "red",
     "bias": [
-      11,
-      15,
-      15
+      6,
+      8,
+      1
     ],
-    "answer": 2,
-    "correct": false
+    "answer": 1,
+    "correct": false,
+    "_id": "orh655j7zap",
+    "_createdDate": 1525352985655,
+    "_updatedDate": 1525352985655
+  },
+  {
+    "selected": 2,
+    "choices": [
+      [
+        99,
+        165,
+        null
+      ],
+      [
+        93,
+        251,
+        10
+      ],
+      [
+        36,
+        82,
+        19
+      ]
+    ],
+    "goal": "red",
+    "bias": [
+      7,
+      8,
+      1
+    ],
+    "answer": 0,
+    "correct": false,
+    "_id": "6z8n25itfho",
+    "_createdDate": 1525352993641,
+    "_updatedDate": 1525352993641
   }
 ]
