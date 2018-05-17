@@ -6,7 +6,7 @@ let path = require('path');
 let app = express();
 
 app.use(express.static(path.join(__dirname,'public')));
-app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 app.get('/',function(req,res){
@@ -33,7 +33,7 @@ function biasing(biasArr,correct,goalNum){
 
 app.post('/colors',function(req,res){
 
-	let data = JSON.parse(req.body.data);
+	let data = (req.body);
 	let goalNum = goalDict[data.goal];
 
 	//iterate through data choices and find teh index of correct answer
