@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@tensorflow/tfjs": "^0.7.0",
-    "body-parser": "^1.18.2",
     "dotenv": "^7.0.0",
     "express": "^4.16.3",
     "mongojs": "^2.6.0"
