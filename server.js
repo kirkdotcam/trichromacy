@@ -1,13 +1,14 @@
-let bc = require('badcube');
 let tf = require('@tensorflow/tfjs');
 let express = require('express');
-let bodyParser = require('body-parser');
 let path = require('path');
+let biasing = require('utils');
+
 let app = express();
 
 app.use(express.static(path.join(__dirname,'public')));
-app.use(bodyParser.urlencoded({extended:true}));
-app.use(bodyParser.json());
+app.use(express.json());
+
+
 
 app.get('/',function(req,res){
 	res.sendFile('./index.html');
@@ -18,18 +19,6 @@ let goalDict = {
 	green: 1,
 	blue: 2
 };
-
-function biasing(biasArr,correct,goalNum){
-
-	if (correct && biasArr[goalNum] > 1){
-		biasArr[goalNum]--;
-	}
-	else if(biasArr[goalNum] < 15 ){
-		biasArr[goalNum]++;
-	}
-	return biasArr
-}
-//should take in current bias array and output new bias array
 
 app.post('/colors',function(req,res){
 
@@ -46,9 +35,11 @@ app.post('/colors',function(req,res){
 
 	data.correct = Boolean(data.answer == data.selected);
 
-	let newBias = biasing(data.bias, data.correct, goalNum)
-	console.log(data)
+	let newBias = biasing(data.bias, data.correct, goalNum);
+	console.log(data);
+
 	bc.Submissions.insert(data);
+	
 	res.json(newBias);
 });
 
