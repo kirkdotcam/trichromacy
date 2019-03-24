@@ -1,7 +1,19 @@
 let tf = require('@tensorflow/tfjs');
 let express = require('express');
 let path = require('path');
-let biasing = require('utils');
+let biasing = require('./utils');
+let mongojs = require('mongojs')
+
+let dotenv = require('dotenv').config();
+
+
+let db = process.env.NODE_ENV ?
+mongojs(process.env.MONGODB_URI, ['submissions'])
+: mongojs('colors',['submissions']);
+
+let submissionCollection = db.collection('submissions');
+
+console.log(db)
 
 let app = express();
 
