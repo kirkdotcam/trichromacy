@@ -6,14 +6,11 @@ let mongojs = require('mongojs')
 
 let dotenv = require('dotenv').config();
 
-
 let db = process.env.NODE_ENV ?
 mongojs(process.env.MONGODB_URI, ['submissions'])
 : mongojs('colors',['submissions']);
 
 let submissionCollection = db.collection('submissions');
-
-console.log(db)
 
 let app = express();
 

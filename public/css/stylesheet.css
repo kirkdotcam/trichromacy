@@ -1,15 +1,10 @@
-.colorBox{
-  height: 20em;
-  width: 30%;
-  border-width: 1px;
-  border-style: solid;
-  border-color:black;
-  float:left;
-  margin-left:10px
+.colorSquare{
+  width: 100px;
+  height: 80%;
+  stroke: #111;
 }
 
-#colorDiv{
-  width: 600px;
-  margin-left:10%;
-  margin-right:10%;
+#colorContainer{
+  width: 70vw;
+  height: 70vh;
 }

@@ -6,7 +6,7 @@ function biasing(biasArr,correct,goalNum){
 	else if(biasArr[goalNum] < 15 ){
 		biasArr[goalNum]++;
 	}
-	return biasArr
+	return biasArr;
 }
 //should take in current bias array and output new bias array
 
