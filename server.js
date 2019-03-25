@@ -4,7 +4,7 @@ let path = require('path');
 let biasing = require('./utils');
 let mongojs = require('mongojs')
 
-let dotenv = require('dotenv').config();
+require('dotenv').config();
 
 let db = process.env.NODE_ENV ?
 mongojs(process.env.MONGODB_URI, ['submissions'])
@@ -29,7 +29,7 @@ let goalDict = {
 	blue: 2
 };
 
-app.post('/colors',function(req,res){
+app.post('/submissions',function(req,res){
 
 	let data = (req.body);
 	let goalNum = goalDict[data.goal];
