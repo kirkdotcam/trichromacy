@@ -40,7 +40,7 @@ function colorGen(biasArr) {
         selected:d3.select(this).data()[0].id,
         goal: newGoal,
         bias: biasArr,
-        id: userId,
+        userId: userId,
         timestamp: Date.now()
       };
 
