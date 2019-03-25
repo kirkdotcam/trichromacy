@@ -30,7 +30,7 @@ function colorGen(biasArr) {
     .selectAll("rect")
     .data(boxData)
     .attr("x", function (d) { return d.x; })
-    .attr("y", "100")
+    .attr("y", "60")
     .attr("fill", () => d3.rgb(...getRandomColor()).toString())
     .on('click', function(){
 
@@ -51,8 +51,17 @@ function colorGen(biasArr) {
       
       });
 
-      console.log(payload)
-      colorGen(biasArr);
+      d3.json('/submissions', {
+        method: "POST",
+        body: JSON.stringify(payload),
+        headers:{
+          "Content-Type": "application/json"
+        }
+      }).then((response)=>{
+        console.log(response);
+        
+        colorGen(response);
+      });
     });
 }
 

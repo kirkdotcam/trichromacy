@@ -6,3 +6,4 @@
 package-lock.json
 analysis.js
 .env
+./pandas_analysis
