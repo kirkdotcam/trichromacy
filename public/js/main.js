@@ -1,5 +1,4 @@
 let colorWheel = ['red', 'green', 'blue'];
-let biasArray = [5, 5, 5];
 let userId = Math.random().toString(36).substring(2, 15);
 let colorContainer = d3.select('#colorContainer');
 let goalLabel = d3.select('#goalLabel');
@@ -15,47 +14,8 @@ let boxData = [{
   id:3,
   x: 360
 }];
-// $(document).ready(function () {
-// 	colorGen(biasArray);
 
-
-//   colors.on('click',()=>{
-//     var colorData = {};
-
-//     colorData.selected = parseInt($(this).attr('id'));
-
-//     colorData.choices = []
-//     $colors.children('div').each(function(i,el){
-//       var toDecompose = $(this).css('background-color');
-//       var decomposed = [];
-//       toDecompose.substring(4,(toDecompose.length-2)).split(',').forEach(function(el){
-//         decomposed.push(parseInt(el.trim()))
-//       });
-
-//       colorData.choices.push(decomposed);
-//     });
-
-//     colorData.goal = $('#goalColor').data('newColor');
-
-// 		colorData.bias = biasArray;
-// 		console.log(colorData)
-//     colorData.userId = userId;
-//     $.post('/colors',colorData)
-//     .done(function(data){
-//       console.log(`data submitted `,data);
-// 			biasArray=data;
-// 			colorGen(biasArray);
-//     })
-//   })
-
-//   //when finished with biasing on server side, modify this to accept a biasing array.
-
-
-//   }
-// })
-
-
-colorGen(biasArray)
+colorGen([5,5,5]);
 
 
 function colorGen(biasArr) {
@@ -65,20 +25,34 @@ function colorGen(biasArr) {
   goalLabel.html(`Which color has the most ${newGoal}?`)
     .style('color', d3.color(newGoal));
 
- 
-  // loop over boxes, applying new random colors
-
 
   colorContainer.select('g')
     .selectAll("rect")
     .data(boxData)
     .attr("x", function (d) { return d.x; })
     .attr("y", "100")
-    .attr("fill", ()=> d3.rgb(...getRandomColor()).toString())
+    .attr("fill", () => d3.rgb(...getRandomColor()).toString())
     .on('click', function(){
-      console.log(d3.rgb(d3.select(this).style("fill")))
-      console.log(d3.selectAll(".colorSquare"))
-      colorGen(biasArr)
+
+      
+      let payload = {
+        choices:[],
+        selected:d3.select(this).data()[0].id,
+        goal: newGoal,
+        bias: biasArr,
+        id: userId
+      };
+
+      
+      d3.selectAll(".colorSquare").attr(null,function(){
+
+        let {r, g, b} = d3.rgb(d3.select(this).attr("fill"));
+        payload.choices.push([r,g,b]);
+      
+      });
+
+      console.log(payload)
+      colorGen(biasArr);
     });
 }
 
@@ -110,3 +84,4 @@ function rand256() {
   //new biasing method: at a static number to the roll every time on a miss, subtract on a hit. 
   return Math.floor(Math.random() * 255);
 }
+
