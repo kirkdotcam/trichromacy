@@ -6,13 +6,13 @@ let goalLabel = d3.select('#goalLabel');
 
 let boxData = [{
   id:1,
-  x: 100
+  x: "10%"
 }, {
   id:2,
-  x: 230
+  x: "40%"
 }, {
   id:3,
-  x: 360
+  x: "70%"
 }];
 
 colorGen([5,5,5]);
@@ -30,7 +30,7 @@ function colorGen(biasArr) {
     .selectAll("rect")
     .data(boxData)
     .attr("x", function (d) { return d.x; })
-    .attr("y", "60")
+    .attr("y", "10%")
     .attr("fill", () => d3.rgb(...getRandomColor()).toString())
     .on('click', function(){
 
@@ -40,7 +40,8 @@ function colorGen(biasArr) {
         selected:d3.select(this).data()[0].id,
         goal: newGoal,
         bias: biasArr,
-        id: userId
+        id: userId,
+        timestamp: Date.now()
       };
 
       

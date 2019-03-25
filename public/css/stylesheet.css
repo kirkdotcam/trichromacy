@@ -1,11 +1,13 @@
 .colorSquare{
-  width: 100px;
+  width: 15%;
   height: 80%;
   stroke: #111;
+  margin: auto;
 }
 
 #colorContainer{
   width: 70vw;
   height: 70vh;
-  border: #111;
+  border: #111 solid thick;
+  margin-left: 10%
 }
