@@ -43,7 +43,7 @@ $(document).ready(function () {
     var text = $('<h3>');
     // var newColor = colorWheel[Math.floor(Math.random() * 3)]
 		var newColor = getRandomItem(colorWheel,biasArr)
-		console.log('gri', biasArr)
+		console.log('biasArray', biasArr)
     text.text(`Which color has the most ${newColor}?`);
     text.attr('id','goalColor');
     text.data('newColor',newColor);

@@ -4,6 +4,8 @@ let express = require('express');
 let bodyParser = require('body-parser');
 let path = require('path');
 let app = express();
+let utils = requre('utils');
+
 
 app.use(express.static(path.join(__dirname,'public')));
 app.use(bodyParser.urlencoded({extended:true}));
@@ -19,16 +21,6 @@ let goalDict = {
 	blue: 2
 };
 
-function biasing(biasArr,correct,goalNum){
-
-	if (correct && biasArr[goalNum] > 1){
-		biasArr[goalNum]--;
-	}
-	else if(biasArr[goalNum] < 15 ){
-		biasArr[goalNum]++;
-	}
-	return biasArr
-}
 //should take in current bias array and output new bias array
 
 app.post('/colors',function(req,res){

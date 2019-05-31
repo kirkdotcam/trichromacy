@@ -8,8 +8,10 @@
   },
   "author": "",
   "license": "ISC",
-  "nodemonConfig":{
-    "ignore":["collections/*"]
+  "nodemonConfig": {
+    "ignore": [
+      "collections/*"
+    ]
   },
   "dependencies": {
     "@tensorflow/tfjs": "^0.7.0",
