@@ -7,3 +7,5 @@ package-lock.json
 analysis.js
 dataWrangle.js
 Submissions.json
+.env
+**/pandas_analysis

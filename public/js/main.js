@@ -1,90 +1,97 @@
-var colorWheel = ['red', 'green', 'blue'];
-var biasArray = [5,5,5];
-var userId = Math.random().toString(36).substring(2, 15);
-
-$(document).ready(function () {
-  var $colors = $('#colorDiv');
-  //delegate colorAjax() to colorDiv
-	colorGen(biasArray);
+let colorWheel = ['red', 'green', 'blue'];
+let userId = Math.random().toString(36).substring(2, 15);
+let colorContainer = d3.select('#colorContainer');
+let goalLabel = d3.select('#goalLabel');
 
 
-  $colors.on('click','.colorBox',function(){
-    var colorData = {};
+let boxData = [{
+  id:1,
+  x: "10%"
+}, {
+  id:2,
+  x: "40%"
+}, {
+  id:3,
+  x: "70%"
+}];
 
-    colorData.selected = parseInt($(this).attr('id'));
+colorGen([5,5,5]);
 
-    colorData.choices = []
-    $colors.children('div').each(function(i,el){
-      var toDecompose = $(this).css('background-color');
-      var decomposed = [];
-      toDecompose.substring(4,(toDecompose.length-2)).split(',').forEach(function(el){
-        decomposed.push(parseInt(el.trim()))
+
+function colorGen(biasArr) {
+
+  let newGoal = getRandomItem(colorWheel, biasArr);
+
+  goalLabel.html(`Which color has the most ${newGoal}?`)
+    .style('color', d3.color(newGoal));
+
+
+  colorContainer.select('g')
+    .selectAll("rect")
+    .data(boxData)
+    .attr("x", function (d) { return d.x; })
+    .attr("y", "10%")
+    .attr("fill", () => d3.rgb(...getRandomColor()).toString())
+    .on('click', function(){
+
+      
+      let payload = {
+        choices:[],
+        selected:d3.select(this).data()[0].id,
+        goal: newGoal,
+        bias: biasArr,
+        userId: userId,
+        timestamp: Date.now()
+      };
+
+      
+      d3.selectAll(".colorSquare").attr(null,function(){
+
+        let {r, g, b} = d3.rgb(d3.select(this).attr("fill"));
+        payload.choices.push([r,g,b]);
+      
       });
 
-      colorData.choices.push(decomposed);
+      d3.json('/submissions', {
+        method: "POST",
+        body: JSON.stringify(payload),
+        headers:{
+          "Content-Type": "application/json"
+        }
+      }).then((response)=>{
+        console.log(response);
+        
+        colorGen(response);
+      });
     });
+}
 
-    colorData.goal = $('#goalColor').data('newColor');
+function getRandomColor(){
+  return ([
+    rand256(),
+    rand256(),
+    rand256()
+  ]);
+}
 
-		colorData.bias = biasArray;
-		console.log(colorData)
-    colorData.userId = userId;
-    $.post('/colors',colorData)
-    .done(function(data){
-      console.log(`data submitted `,data);
-			biasArray=data;
-			colorGen(biasArray)
-    })
-  })
-
-  //when finished with biasing on server side, modify this to accept a biasing array.
-  function colorGen(biasArr) {
-    $colors.empty()
-    var text = $('<h3>');
-    // var newColor = colorWheel[Math.floor(Math.random() * 3)]
-		var newColor = getRandomItem(colorWheel,biasArr)
-		console.log('biasArray', biasArr)
-    text.text(`Which color has the most ${newColor}?`);
-    text.attr('id','goalColor');
-    text.data('newColor',newColor);
-
-    $colors.append(text);
-
-    for (var i = 0; i < 3; i++) {
-      var genDiv = $('<div>')
-      genDiv.css("background-color", function () {
-				//call biased version of rand256 here, slot values into following return statement
-        return `rgb(${rand256()},${rand256()},${rand256()})`
-      });
-      genDiv.attr('id', i);
-      genDiv.attr('class', 'colorBox');
-      $colors.append(genDiv);
-    }
-
-  }
-})
-
-var rand = function(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
-};
-
-var getRandomItem = function (list, weights) {
-	var totalWeight = weights.reduce(function(acc,curr){
-    return acc+curr;
-  })
-
-  var random = rand(0, totalWeight);
-  var weightSum = 0
-
-	for (i = 0; i <= weights.length; i++) {
+function getRandomItem(list, weights) {
+  let totalWeight = weights.reduce(function (acc, curr) {
+    return acc + curr;
+  });
+  
+  let random = d3.randomUniform(0, totalWeight)();
+  let weightSum = 0;
+  
+  for (i = 0; i <= weights.length; i++) {
     weightSum += weights[i];
-		if (random <= weightSum) {
-			return list[i];
-		}
-	}
-};
-
+    if (random <= weightSum) {
+      return list[i];
+    }
+  }
+}
 
 function rand256() {
+  //new biasing method: at a static number to the roll every time on a miss, subtract on a hit. 
   return Math.floor(Math.random() * 255);
 }
+
