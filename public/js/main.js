@@ -90,7 +90,7 @@ function getRandomItem(list, weights) {
 }
 
 function rand256() {
-  //new biasing method: at a static number to the roll every time on a miss, subtract on a hit. 
+  //new biasing method: add a static number to the roll every time on a miss, subtract on a hit. 
   return Math.floor(Math.random() * 255);
 }
 
