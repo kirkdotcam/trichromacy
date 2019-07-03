@@ -16,7 +16,6 @@ db.on('error', (err) => console.error(err));
 let submissionCollection = db.collection('submissions');
 
 let app = express();
-let utils = requre('utils');
 
 
 app.use(express.static(path.join(__dirname,'public')));
