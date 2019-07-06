@@ -5,19 +5,20 @@ let mongojs = require('mongojs')
 let model = tf.sequential();
 
 model.add(tf.layers.dense({
-    inputShape:[2],
+    inputShape:[3,3],
+    batchSize:19, //number of samples to use?
     units:6,
-    activation:'relu'
+    activation:'linear'
 }))
 
 model.add(tf.layers.dense({
     units:6,
-    activation:'relu'
+    activation:'linear'
 }))
 
 model.add(tf.layers.dense({
     units:1,
-    activation:'relu'
+    activation:'linear'
 }))
 
 model.compile({
@@ -25,7 +26,7 @@ model.compile({
     loss:'meanSquaredError',
     metrics:['accuracy']
 })
-// model.summary();
+model.summary();
 
 // retrieve data through mongo
 let db=mongojs('colors',['submissions'])
@@ -37,24 +38,29 @@ let submissionCollection = db.collection('submissions');
 
 submissionCollection.find(function(err, docs){
     // console.log(docs);
-    let data = docs.map((doc) => [tf.tensor(doc.choices),tf.tensor(doc.bias), tf.tensor1d([+doc.correct])]);
+    // TODO: Let's vectorize each individual choice (or color) instead of keeping all one tensor
 
-    let Xs = data.map((observation) => [observation[0], observation[1]]);
-    let ys = data.map((observation) => observation[2]);
-    console.log(Xs[0])
-    
-    
+    let data = docs.map((doc) => [doc.choices,+doc.correct]);
+    let Xs = tf.tensor(data.map((observation) => observation[0]));
+    let ys = tf.tensor(data.map((observation) => observation[1]));
+    Xs.print()
+    ys.print()
+    // tf.stack(Xs).print()
+ 
+
     model
-        .fit(tf.stack(Xs),tf.stack(ys),{
-            batchSize:2
+        .fit(Xs,ys,{
+        // .fit(undata,labels,{
+            batchSize:19
         })
-        .catch(err => console.log(err))
-        .then(()=>{
-
-            let newdata =[tf.tensor([[31,83,163],[138,77,157],[199,131,60]]),tf.tensor([6,9,13])]
-            console.log(tf.tensor(newdata,[1,2]));
+        .catch(err => console.log("my error",err))
+        .then((info)=>{
+            console.log(info.history);
             
-            model.predict(tf.tensor(newdata,[1,2])).print()
+            // let newdata =[tf.tensor([[31,83,163],[138,77,157],[199,131,60]])]
+            // console.log(tf.tensor(newdata));
+            
+            // model.predict(tf.tensor(newdata,[1,2])).print()
         })
 
 })
