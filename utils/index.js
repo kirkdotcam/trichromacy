@@ -1,3 +1,12 @@
+/**
+ * biasing takes in a set of data about the result of a trial, and returns the new biasing array. 
+ * Each value is scaled 0-15, enforced by this function.
+ * 
+ * @param {Number[]} biasArr Array of the biases towards each rgb
+ * @param {Boolean} correct Boolean of whether the user selected the correct choice
+ * @param {Number} goalNum Number of the goal color (double-check the reference array)
+ * @returns	{Number[]} New biasing array
+ */
 function biasing(biasArr,correct,goalNum){
 
 	if (correct && biasArr[goalNum] > 1){
@@ -8,6 +17,5 @@ function biasing(biasArr,correct,goalNum){
 	}
 	return biasArr;
 }
-//should take in current bias array and output new bias array
 
-module.exports = biasing;
+export default biasing;

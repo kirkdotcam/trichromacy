@@ -17,10 +17,14 @@ let boxData = [{
 
 colorGen([5,5,5]);
 
-
+/**
+ * Handles generating new set of three colors; makes 
+ * payload request to /submissions on server
+ * @param {Number[]} biasArr 
+ */
 function colorGen(biasArr) {
 
-  let newGoal = getRandomItem(colorWheel, biasArr);
+  let newGoal = weightedRandom(colorWheel, biasArr);
 
   goalLabel.html(`Which color has the most ${newGoal}?`)
     .style('color', d3.color(newGoal));
@@ -31,7 +35,7 @@ function colorGen(biasArr) {
     .data(boxData)
     .attr("x", function (d) { return d.x; })
     .attr("y", "60")
-    .attr("fill", () => d3.rgb(...getRandomColor()).toString())
+    .attr("fill", () => d3.rgb(...getRandomColors()).toString())
     .on('click', function(){
 
       
@@ -65,7 +69,8 @@ function colorGen(biasArr) {
     });
 }
 
-function getRandomColor(){
+/** builds array of three random colors */
+function getRandomColors(){
   return ([
     rand256(),
     rand256(),
@@ -73,7 +78,12 @@ function getRandomColor(){
   ]);
 }
 
-function getRandomItem(list, weights) {
+/**
+ * makes a weighted random selection
+ * @param {any[]} list array of values
+ * @param {Number[]} weights array of weights to apply to each value
+ */
+function weightedRandom(list, weights) {
   let totalWeight = weights.reduce(function (acc, curr) {
     return acc + curr;
   });
@@ -90,7 +100,7 @@ function getRandomItem(list, weights) {
 }
 
 function rand256() {
-  //new biasing method: add a static number to the roll every time on a miss, subtract on a hit. 
+  //TODO: new biasing method: add a static number to the roll every time on a miss, subtract on a hit. 
   return Math.floor(Math.random() * 255);
 }
 

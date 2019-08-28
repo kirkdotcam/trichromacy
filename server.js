@@ -1,14 +1,14 @@
 let tf = require('@tensorflow/tfjs');
 let express = require('express');
 let path = require('path');
-let biasing = require('./utils');
-let mongojs = require('mongojs')
+let biasing = require('./utils').default.default;
+let mongojs = require('mongojs');
 require('dotenv').config();
 let PORT = process.env.PORT;
 
-let db = process.env.NODE_ENV ?
-mongojs(process.env.MONGODB_URI, ['submissions'])
-: mongojs('colors',['submissions']);
+let db = process.env.MONGODB_URI ?
+	mongojs(process.env.MONGODB_URI, ['submissions'])
+	: mongojs('colors',['submissions']);
 
 db.on('connect',()=> console.log("database connected"));
 db.on('error', (err) => console.error(err));
@@ -49,7 +49,7 @@ app.post('/submissions',function(req,res){
 
 	let newBias = biasing(data.bias, data.correct, goalNum);
 
-	submissionCollection.insert(data)
+	submissionCollection.insert(data);
 	res.json(newBias);
 });
 

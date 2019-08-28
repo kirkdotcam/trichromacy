@@ -1,16 +1,18 @@
 let tf = require('@tensorflow/tfjs');
-require('@tensorflow/tfjs-node-gpu')
-let mongojs = require('mongojs')
+require('@tensorflow/tfjs-node-gpu');
+
+let mongojs = require('mongojs');
 // model setup
 let model = tf.sequential();
 
 // retrieve data through mongo
-let db=mongojs('colors',['submissions'])
+let db = mongojs('colors',['submissions'])
+let submissionCollection = db.collection('submissions');
 
 db.on('connect',()=> console.log("database connected"));
 db.on('error', (err) => console.error(err));
 
-let submissionCollection = db.collection('submissions');
+
 
 submissionCollection.find(function(err, docs){
     modelsetup(docs.length)
@@ -43,7 +45,7 @@ submissionCollection.find(function(err, docs){
         })
         .catch(err => console.log("my error",err))
         .then(()=>{
-            model.save("file://./box")
+            model.save("file://./box") // should change this to hook into mongo/storage on a server route.
             .catch((err)=>{
                 console.log(err);
                 process.exit();
@@ -78,4 +80,5 @@ function modelsetup(batchSize) {
         metrics:['accuracy']
     })
     model.summary();
+
 }
