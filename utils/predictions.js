@@ -1,5 +1,5 @@
-// let tf = require('@tensorflow/tfjs-node-gpu');
 let tf = require('@tensorflow/tfjs');
+require('@tensorflow/tfjs-node-gpu')
 let mongojs = require('mongojs')
 // model setup
 let model = tf.sequential();
@@ -13,26 +13,26 @@ db.on('error', (err) => console.error(err));
 let submissionCollection = db.collection('submissions');
 
 submissionCollection.find(function(err, docs){
-
     modelsetup(docs.length)
     // console.log(docs);
-
+    
     let data = docs.map((doc) => [doc.choices, Number(doc.correct)]);
+    console.log("test1")
     let Xs = tf.tensor(data.map((observation) => observation[0]));
     let ys = tf.tensor(data.map((observation) => [[observation[1]],[observation[1]],[observation[1]]]));
     // let ys = tf.randomNormal([19,3,1])
     // Xs.print()
     // ys.print()
 
-
+    console.log("premodel")
     model
         .fit(Xs,ys,{
             batchSize:docs.length
         })
-        .catch(err => console.log("my error",err))
         .then((info)=>{
-
-            console.log(info.history);
+            console.log("postfit");
+            
+            // console.log(info.history);
             
             let newdata =tf.tensor([[[31,83,163],[138,77,157],[199,131,60]]]);
             // console.log(newdata);
@@ -40,6 +40,15 @@ submissionCollection.find(function(err, docs){
             console.log("newprediction");
             
             model.predict(newdata).print()
+        })
+        .catch(err => console.log("my error",err))
+        .then(()=>{
+            model.save("file://./box")
+            .catch((err)=>{
+                console.log(err);
+                process.exit();
+            });
+            process.exit();
         })
 
 })
@@ -68,5 +77,5 @@ function modelsetup(batchSize) {
         loss:'meanSquaredError',
         metrics:['accuracy']
     })
-    // model.summary();
+    model.summary();
 }
